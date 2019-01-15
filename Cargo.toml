@@ -1,0 +1,9 @@
+[package]
+name = "rtb-winit"
+version = "0.1.0"
+authors = ["Rob Saunders <rob@wearebrandnew.com>"]
+edition = "2018"
+
+[dependencies]
+winit = "0.13.1"
+rtb-rs = { version = "*", git = "https://github.com/rust-dsp/rtb-rs.git" }
